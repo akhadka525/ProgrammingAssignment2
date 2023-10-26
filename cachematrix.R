@@ -1,5 +1,11 @@
-## The pair of functions written below cache the inverse of a matrix
 ## 
+## The pair of functions written below cache the inverse of a matrix
+##
+## The functions are tested for the matrix: matrix(c(4, 2, 5, 3), 2, 2)
+## To test: 
+## x <- makeCacheMatrix(matrix(c(4, 2, 5, 3), 2, 2))
+## cacheSolve(x)
+
 
 ## The function "makeCacheMatrix" creates a special "matrix" object that can 
 ## cache its inverse
